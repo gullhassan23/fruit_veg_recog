@@ -1,0 +1,27 @@
+0 apple
+1 banana
+2 raddish
+3 tomato
+4 cabbage
+5 carrot
+6 cauliflower
+7 chilli pepper
+8 corn
+9 cucumber
+10 eggplant
+11 garlic
+12 grapes
+13 ginger
+14 lemon
+15 mango
+16 onion
+17 paprika
+18 watermelon
+19 potato
+20 spinach
+21 soy beans
+22 peas
+23 orange
+24 pineapple
+25 pomegrant
+26 pear
