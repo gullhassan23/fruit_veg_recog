@@ -1,6 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:io';
-import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tflite_flutter/tflite_flutter.dart';
@@ -159,6 +158,16 @@ class _ImacreenState extends State<Imacreen> {
         Text(
           "Confidence: ${(confidence * 100).toStringAsFixed(2)}%",
           style: TextStyle(fontSize: 16, color: Colors.grey[700]),
+        ),
+        SizedBox(height: 20),
+        ElevatedButton(
+          onPressed: () {
+            setState(() {
+              result = null; // Reset result
+            });
+            runModelOnImage(); // Run the model again
+          },
+          child: Text("Predict Again"),
         ),
       ],
     );
